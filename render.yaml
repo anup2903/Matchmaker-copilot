@@ -1,0 +1,41 @@
+# Render Blueprint: Postgres + backend (FastAPI) + frontend (Next.js).
+# Dashboard -> New -> Blueprint -> pick this repo.
+databases:
+  - name: matchmaker-db
+    plan: free
+    databaseName: matchmaker
+    user: matchmaker
+
+services:
+  - type: web
+    name: matchmaker-backend
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile.backend
+    dockerContext: .
+    healthCheckPath: /health
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: matchmaker-db
+          property: connectionString
+      # Optional: leave empty for demo mode (deterministic fallback), or set a key to use a real LLM.
+      - key: LLM_API_KEY
+        sync: false
+      - key: LLM_MODEL
+        sync: false
+      - key: LLM_BASE_URL
+        sync: false
+
+  - type: web
+    name: matchmaker-frontend
+    runtime: docker
+    plan: free
+    dockerfilePath: ./frontend/Dockerfile
+    dockerContext: ./frontend
+    envVars:
+      - key: PORT
+        value: "3000"
+      # Baked in at build time (Next rewrites). Must match the backend's public URL.
+      - key: BACKEND_URL
+        value: https://matchmaker-backend.onrender.com
