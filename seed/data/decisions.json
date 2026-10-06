@@ -1,0 +1,691 @@
+[
+  {
+    "slug": "ananya-noor-k",
+    "client": "ananya",
+    "candidate": "noor-k",
+    "matchmaker": "A",
+    "status": "rejected",
+    "days_ago": 62,
+    "feedback": {
+      "note": "Didn't feel we'd connect intellectually; the conversation stayed surface-level. Their college background also wasn't what I'd hoped for.",
+      "signals": [
+        {
+          "category": "intellectual_fit",
+          "attribute": "intellectual compatibility",
+          "evidence": "Didn't feel we'd connect intellectually",
+          "confidence": "high"
+        },
+        {
+          "category": "career_education",
+          "attribute": "college pedigree",
+          "evidence": "college background also wasn't what I'd hoped for",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "ananya-sasha-r",
+    "client": "ananya",
+    "candidate": "sasha-r",
+    "matchmaker": "A",
+    "status": "rejected",
+    "days_ago": 48,
+    "feedback": {
+      "note": "Lovely person but not intellectually stimulating for me. Education wasn't at the level I expected.",
+      "signals": [
+        {
+          "category": "intellectual_fit",
+          "attribute": "intellectual compatibility",
+          "evidence": "not intellectually stimulating for me",
+          "confidence": "high"
+        },
+        {
+          "category": "career_education",
+          "attribute": "college pedigree",
+          "evidence": "Education wasn't at the level I expected",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "ananya-zara-p",
+    "client": "ananya",
+    "candidate": "zara-p",
+    "matchmaker": "A",
+    "status": "rejected",
+    "days_ago": 35,
+    "feedback": {
+      "note": "Conversation felt shallow; I didn't see an intellectual spark.",
+      "signals": [
+        {
+          "category": "intellectual_fit",
+          "attribute": "intellectual compatibility",
+          "evidence": "I didn't see an intellectual spark",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "ananya-ari-s",
+    "client": "ananya",
+    "candidate": "ari-s",
+    "matchmaker": "A",
+    "status": "rejected",
+    "days_ago": 55,
+    "feedback": {
+      "note": "Nice person but Delhi is too far for me to realistically date.",
+      "signals": [
+        {
+          "category": "location_distance",
+          "attribute": "distance",
+          "evidence": "Delhi is too far for me to realistically date",
+          "confidence": "high"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "ananya-tara-b",
+    "client": "ananya",
+    "candidate": "tara-b",
+    "matchmaker": "B",
+    "status": "rejected",
+    "days_ago": 28,
+    "feedback": {
+      "note": "Great conversation, but the long distance would be a problem.",
+      "signals": [
+        {
+          "category": "location_distance",
+          "attribute": "distance",
+          "evidence": "the long distance would be a problem",
+          "confidence": "high"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "ananya-dev-n",
+    "client": "ananya",
+    "candidate": "dev-n",
+    "matchmaker": "A",
+    "status": "rejected",
+    "days_ago": 15,
+    "feedback": {
+      "note": "Kolkata is simply too far; I can't see it working.",
+      "signals": [
+        {
+          "category": "location_distance",
+          "attribute": "distance",
+          "evidence": "Kolkata is simply too far",
+          "confidence": "high"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "ananya-kiran-m",
+    "client": "ananya",
+    "candidate": "kiran-m",
+    "matchmaker": "A",
+    "status": "accepted",
+    "days_ago": 40
+  },
+  {
+    "slug": "rohan-ari-s",
+    "client": "rohan",
+    "candidate": "ari-s",
+    "matchmaker": "B",
+    "status": "rejected",
+    "days_ago": 60,
+    "feedback": {
+      "note": "Lovely, but I want to date someone in Pune; the distance won't work.",
+      "signals": [
+        {
+          "category": "location_distance",
+          "attribute": "distance",
+          "evidence": "I want to date someone in Pune",
+          "confidence": "high"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "rohan-tara-b",
+    "client": "rohan",
+    "candidate": "tara-b",
+    "matchmaker": "B",
+    "status": "rejected",
+    "days_ago": 33,
+    "feedback": {
+      "note": "Too far. I told you I prefer someone in my own city.",
+      "signals": [
+        {
+          "category": "location_distance",
+          "attribute": "distance",
+          "evidence": "I prefer someone in my own city",
+          "confidence": "high"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "rohan-dev-n",
+    "client": "rohan",
+    "candidate": "dev-n",
+    "matchmaker": "B",
+    "status": "rejected",
+    "days_ago": 20,
+    "feedback": {
+      "note": "Lives in Kolkata and won't relocate; I need someone based in Pune.",
+      "signals": [
+        {
+          "category": "location_distance",
+          "attribute": "distance",
+          "evidence": "I need someone based in Pune",
+          "confidence": "high"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "rohan-rhea-t",
+    "client": "rohan",
+    "candidate": "rhea-t",
+    "matchmaker": "B",
+    "status": "rejected",
+    "days_ago": 12,
+    "feedback": {
+      "note": "Smokes. I was clear that I need a non-smoker.",
+      "signals": [
+        {
+          "category": "smoking_alcohol",
+          "attribute": "smoking",
+          "evidence": "I need a non-smoker",
+          "confidence": "high"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "rohan-noor-k",
+    "client": "rohan",
+    "candidate": "noor-k",
+    "matchmaker": "A",
+    "status": "rejected",
+    "days_ago": 25,
+    "feedback": {
+      "note": "Career felt too early-stage for what I need right now.",
+      "signals": [
+        {
+          "category": "career_education",
+          "attribute": "career",
+          "evidence": "Career felt too early-stage",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "rohan-kiran-m",
+    "client": "rohan",
+    "candidate": "kiran-m",
+    "matchmaker": "A",
+    "status": "accepted",
+    "days_ago": 40
+  },
+  {
+    "slug": "priya-dev-n",
+    "client": "priya",
+    "candidate": "dev-n",
+    "matchmaker": "B",
+    "status": "rejected",
+    "days_ago": 80,
+    "feedback": {
+      "note": "Expects us to move in with their parents right after marriage; that's not how I see family life.",
+      "signals": [
+        {
+          "category": "family_background",
+          "attribute": "family setup",
+          "evidence": "Expects us to move in with their parents",
+          "confidence": "high"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "priya-veer-a",
+    "client": "priya",
+    "candidate": "veer-a",
+    "matchmaker": "C",
+    "status": "rejected",
+    "days_ago": 66,
+    "feedback": {
+      "note": "Family expectations felt very rigid, and they want to settle near their parents' hometown in Delhi.",
+      "signals": [
+        {
+          "category": "family_background",
+          "attribute": "family expectations",
+          "evidence": "Family expectations felt very rigid",
+          "confidence": "medium"
+        },
+        {
+          "category": "values_lifestyle",
+          "attribute": "living arrangements",
+          "evidence": "they want to settle near their parents' hometown in Delhi",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "priya-noor-k",
+    "client": "priya",
+    "candidate": "noor-k",
+    "matchmaker": "B",
+    "status": "rejected",
+    "days_ago": 50,
+    "feedback": {
+      "note": "Lives with parents and expects that to continue; felt like our family values wouldn't match.",
+      "signals": [
+        {
+          "category": "family_background",
+          "attribute": "family setup",
+          "evidence": "Lives with parents and expects that to continue",
+          "confidence": "high"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "priya-rey-d",
+    "client": "priya",
+    "candidate": "rey-d",
+    "matchmaker": "C",
+    "status": "rejected",
+    "days_ago": 30,
+    "feedback": {
+      "note": "Very close to family in a way that left little room for us; also wants to live near their parents in Mumbai.",
+      "signals": [
+        {
+          "category": "family_background",
+          "attribute": "family closeness",
+          "evidence": "Very close to family in a way that left little room for us",
+          "confidence": "medium"
+        },
+        {
+          "category": "values_lifestyle",
+          "attribute": "living arrangements",
+          "evidence": "wants to live near their parents in Mumbai",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "priya-tara-b",
+    "client": "priya",
+    "candidate": "tara-b",
+    "matchmaker": "C",
+    "status": "accepted",
+    "days_ago": 40
+  },
+  {
+    "slug": "priya-jai-o",
+    "client": "priya",
+    "candidate": "jai-o",
+    "matchmaker": "C",
+    "status": "shared",
+    "days_ago": 3
+  },
+  {
+    "slug": "vikram-zara-p",
+    "client": "vikram",
+    "candidate": "zara-p",
+    "matchmaker": "A",
+    "status": "rejected",
+    "days_ago": 45,
+    "feedback": {
+      "note": "Seemed unsure about career direction; I want someone more driven.",
+      "signals": [
+        {
+          "category": "career_education",
+          "attribute": "career trajectory",
+          "evidence": "I want someone more driven",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "vikram-sasha-r",
+    "client": "vikram",
+    "candidate": "sasha-r",
+    "matchmaker": "B",
+    "status": "rejected",
+    "days_ago": 30,
+    "feedback": {
+      "note": "Career felt early-stage and not very ambitious.",
+      "signals": [
+        {
+          "category": "career_education",
+          "attribute": "career trajectory",
+          "evidence": "not very ambitious",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "vikram-tara-b",
+    "client": "vikram",
+    "candidate": "tara-b",
+    "matchmaker": "A",
+    "status": "rejected",
+    "days_ago": 20,
+    "feedback": {
+      "note": "Great career, just didn't click on a personal level.",
+      "signals": [
+        {
+          "category": "attraction_first_impression",
+          "attribute": "chemistry",
+          "evidence": "didn't click on a personal level",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "vikram-rhea-t",
+    "client": "vikram",
+    "candidate": "rhea-t",
+    "matchmaker": "A",
+    "status": "rejected",
+    "days_ago": 10,
+    "feedback": {
+      "note": "Smokes and drinks heavily, not for me.",
+      "signals": [
+        {
+          "category": "smoking_alcohol",
+          "attribute": "smoking",
+          "evidence": "Smokes and drinks heavily",
+          "confidence": "high"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "vikram-meher-l",
+    "client": "vikram",
+    "candidate": "meher-l",
+    "matchmaker": "A",
+    "status": "accepted",
+    "days_ago": 15
+  },
+  {
+    "slug": "vikram-ari-s",
+    "client": "vikram",
+    "candidate": "ari-s",
+    "matchmaker": "B",
+    "status": "rejected",
+    "days_ago": 5,
+    "feedback": {
+      "note": "Client was travelling for work and asked to hold off on introductions.",
+      "signals": [
+        {
+          "category": "other",
+          "attribute": "timing / availability",
+          "evidence": "asked to hold off on introductions",
+          "confidence": "medium",
+          "violation_type": "not_a_preference_violation"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "vikram-noor-k",
+    "client": "vikram",
+    "candidate": "noor-k",
+    "matchmaker": "B",
+    "status": "shared",
+    "days_ago": 4
+  },
+  {
+    "slug": "meera-noor-k",
+    "client": "meera",
+    "candidate": "noor-k",
+    "matchmaker": "A",
+    "status": "rejected",
+    "days_ago": 70,
+    "feedback": {
+      "note": "Not intellectually curious; conversation was very surface level. Also wasn't from a strong university.",
+      "signals": [
+        {
+          "category": "intellectual_fit",
+          "attribute": "intellectual compatibility",
+          "evidence": "Not intellectually curious",
+          "confidence": "high"
+        },
+        {
+          "category": "career_education",
+          "attribute": "college pedigree",
+          "evidence": "wasn't from a strong university",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "meera-sasha-r",
+    "client": "meera",
+    "candidate": "sasha-r",
+    "matchmaker": "A",
+    "status": "rejected",
+    "days_ago": 50,
+    "feedback": {
+      "note": "Didn't feel intellectually matched, and the college wasn't impressive.",
+      "signals": [
+        {
+          "category": "intellectual_fit",
+          "attribute": "intellectual compatibility",
+          "evidence": "Didn't feel intellectually matched",
+          "confidence": "high"
+        },
+        {
+          "category": "career_education",
+          "attribute": "college pedigree",
+          "evidence": "the college wasn't impressive",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "meera-kiran-m",
+    "client": "meera",
+    "candidate": "kiran-m",
+    "matchmaker": "B",
+    "status": "rejected",
+    "days_ago": 30,
+    "feedback": {
+      "note": "Wasn't intellectually challenging for me.",
+      "signals": [
+        {
+          "category": "intellectual_fit",
+          "attribute": "intellectual compatibility",
+          "evidence": "Wasn't intellectually challenging for me",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "meera-rhea-t",
+    "client": "meera",
+    "candidate": "rhea-t",
+    "matchmaker": "B",
+    "status": "rejected",
+    "days_ago": 18,
+    "feedback": {
+      "note": "Smokes, which I said I can't accept.",
+      "signals": [
+        {
+          "category": "smoking_alcohol",
+          "attribute": "smoking",
+          "evidence": "Smokes, which I said I can't accept",
+          "confidence": "high"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "meera-zara-p",
+    "client": "meera",
+    "candidate": "zara-p",
+    "matchmaker": "A",
+    "status": "accepted",
+    "days_ago": 40
+  },
+  {
+    "slug": "meera-rey-d",
+    "client": "meera",
+    "candidate": "rey-d",
+    "matchmaker": "A",
+    "status": "accepted",
+    "days_ago": 20
+  },
+  {
+    "slug": "arjun-zara-p",
+    "client": "arjun",
+    "candidate": "zara-p",
+    "matchmaker": "C",
+    "status": "rejected",
+    "days_ago": 60,
+    "feedback": {
+      "note": "Lifestyle felt very different; always out at parties and bars.",
+      "signals": [
+        {
+          "category": "values_lifestyle",
+          "attribute": "lifestyle",
+          "evidence": "Lifestyle felt very different",
+          "confidence": "high"
+        },
+        {
+          "category": "smoking_alcohol",
+          "attribute": "drinking",
+          "evidence": "always out at parties and bars",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "arjun-noor-k",
+    "client": "arjun",
+    "candidate": "noor-k",
+    "matchmaker": "C",
+    "status": "rejected",
+    "days_ago": 40,
+    "feedback": {
+      "note": "Different lifestyle; they drink socially most weekends and that's not my scene.",
+      "signals": [
+        {
+          "category": "values_lifestyle",
+          "attribute": "lifestyle",
+          "evidence": "Different lifestyle",
+          "confidence": "high"
+        },
+        {
+          "category": "smoking_alcohol",
+          "attribute": "drinking",
+          "evidence": "they drink socially most weekends",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "arjun-tara-b",
+    "client": "arjun",
+    "candidate": "tara-b",
+    "matchmaker": "A",
+    "status": "rejected",
+    "days_ago": 25,
+    "feedback": {
+      "note": "Daily routines and values didn't line up.",
+      "signals": [
+        {
+          "category": "values_lifestyle",
+          "attribute": "lifestyle",
+          "evidence": "Daily routines and values didn't line up",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "arjun-ari-s",
+    "client": "arjun",
+    "candidate": "ari-s",
+    "matchmaker": "B",
+    "status": "rejected",
+    "days_ago": 15,
+    "feedback": {
+      "note": "Too far from Chennai.",
+      "signals": [
+        {
+          "category": "location_distance",
+          "attribute": "distance",
+          "evidence": "Too far from Chennai",
+          "confidence": "high"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "arjun-kiran-m",
+    "client": "arjun",
+    "candidate": "kiran-m",
+    "matchmaker": "A",
+    "status": "accepted",
+    "days_ago": 35
+  },
+  {
+    "slug": "arjun-meher-l",
+    "client": "arjun",
+    "candidate": "meher-l",
+    "matchmaker": "B",
+    "status": "accepted",
+    "days_ago": 12
+  },
+  {
+    "slug": "arjun-dev-n",
+    "client": "arjun",
+    "candidate": "dev-n",
+    "matchmaker": "C",
+    "status": "rejected",
+    "days_ago": 8,
+    "feedback": {
+      "note": "Not sure, just didn't feel it.",
+      "signals": [
+        {
+          "category": "unclear",
+          "attribute": "overall fit",
+          "evidence": "just didn't feel it",
+          "confidence": "low",
+          "violation_type": "unclear"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "arjun-jai-o",
+    "client": "arjun",
+    "candidate": "jai-o",
+    "matchmaker": "B",
+    "status": "shared",
+    "days_ago": 2
+  }
+]

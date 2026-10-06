@@ -1,0 +1,98 @@
+[
+  {
+    "slug": "kiran-m", "name": "Kiran M.", "age": 33, "location": "Mumbai",
+    "smokes": false, "drinks": true, "wants_children": true, "willing_to_relocate": true,
+    "education": "Mumbai University", "education_tier": "standard",
+    "career": "Senior Product Manager", "career_level": "senior",
+    "values_lifestyle": {"tags": ["fitness", "travel", "food"], "family_setup": "independent", "social_style": "social"},
+    "bio": "Product manager who runs on weekends and cooks for friends."
+  },
+  {
+    "slug": "ari-s", "name": "Ari S.", "age": 32, "location": "Delhi",
+    "smokes": false, "drinks": false, "wants_children": true, "willing_to_relocate": false,
+    "education": "IIT Delhi", "education_tier": "prestigious",
+    "career": "Research Scientist", "career_level": "senior",
+    "values_lifestyle": {"tags": ["reading", "travel"], "family_setup": "independent", "social_style": "quiet"},
+    "bio": "Research scientist, avid reader, plans long treks."
+  },
+  {
+    "slug": "noor-k", "name": "Noor K.", "age": 30, "location": "Bengaluru",
+    "smokes": false, "drinks": true, "wants_children": true, "willing_to_relocate": true,
+    "education": "NIT Trichy", "education_tier": "standard",
+    "career": "Software Engineer", "career_level": "mid",
+    "values_lifestyle": {"tags": ["music", "fitness"], "family_setup": "lives_with_parents", "social_style": "social"},
+    "bio": "Backend engineer who plays guitar and cycles."
+  },
+  {
+    "slug": "sasha-r", "name": "Sasha R.", "age": 31, "location": "Pune",
+    "smokes": false, "drinks": false, "wants_children": true, "willing_to_relocate": true,
+    "education": "Symbiosis, Pune", "education_tier": "standard",
+    "career": "Marketing Manager", "career_level": "mid",
+    "values_lifestyle": {"tags": ["travel", "food", "art"], "family_setup": "independent", "social_style": "quiet"},
+    "bio": "Brand marketer who loves street food and sketching."
+  },
+  {
+    "slug": "tara-b", "name": "Tara B.", "age": 29, "location": "Delhi",
+    "smokes": false, "drinks": true, "wants_children": true, "willing_to_relocate": true,
+    "education": "St. Stephen's College", "education_tier": "prestigious",
+    "career": "Policy Analyst", "career_level": "mid",
+    "values_lifestyle": {"tags": ["reading", "theatre"], "family_setup": "lives_with_parents", "social_style": "social"},
+    "bio": "Policy analyst who writes and watches a lot of theatre."
+  },
+  {
+    "slug": "dev-n", "name": "Dev N.", "age": 35, "location": "Kolkata",
+    "smokes": false, "drinks": false, "wants_children": true, "willing_to_relocate": false,
+    "education": "Presidency University", "education_tier": "prestigious",
+    "career": "Professor", "career_level": "senior",
+    "values_lifestyle": {"tags": ["reading", "music"], "family_setup": "lives_with_parents", "social_style": "quiet"},
+    "bio": "University professor, classical music enthusiast."
+  },
+  {
+    "slug": "zara-p", "name": "Zara P.", "age": 28, "location": "Pune",
+    "smokes": false, "drinks": true, "wants_children": false, "willing_to_relocate": true,
+    "education": "Fergusson College", "education_tier": "standard",
+    "career": "Designer", "career_level": "early",
+    "values_lifestyle": {"tags": ["art", "travel", "nightlife"], "family_setup": "independent", "social_style": "nightlife"},
+    "bio": "Product designer who loves live music and late nights."
+  },
+  {
+    "slug": "rhea-t", "name": "Rhea T.", "age": 32, "location": "Mumbai",
+    "smokes": true, "drinks": true, "wants_children": true, "willing_to_relocate": true,
+    "education": "St. Xavier's College", "education_tier": "prestigious",
+    "career": "Investment Associate", "career_level": "senior",
+    "values_lifestyle": {"tags": ["travel", "fitness"], "family_setup": "independent", "social_style": "social"},
+    "bio": "Investment associate, social smoker, frequent traveller."
+  },
+  {
+    "slug": "veer-a", "name": "Veer A.", "age": 34, "location": "Delhi",
+    "smokes": false, "drinks": false, "wants_children": true, "willing_to_relocate": false,
+    "education": "IIT Bombay", "education_tier": "prestigious",
+    "career": "Engineering Director", "career_level": "senior",
+    "values_lifestyle": {"tags": ["reading", "travel"], "family_setup": "lives_with_parents", "social_style": "quiet"},
+    "bio": "Engineering director, grounded, close to family in Delhi."
+  },
+  {
+    "slug": "meher-l", "name": "Meher L.", "age": 30, "location": "Mumbai",
+    "smokes": false, "drinks": false, "wants_children": true, "willing_to_relocate": true,
+    "education": "IIM Ahmedabad", "education_tier": "prestigious",
+    "career": "Strategy Consultant", "career_level": "senior",
+    "values_lifestyle": {"tags": ["reading", "fitness", "travel"], "family_setup": "independent", "social_style": "quiet"},
+    "bio": "Strategy consultant, early-morning runner, reads widely."
+  },
+  {
+    "slug": "rey-d", "name": "Rey D.", "age": 34, "location": "Mumbai",
+    "smokes": false, "drinks": true, "wants_children": true, "willing_to_relocate": true,
+    "education": "Pune University", "education_tier": "standard",
+    "career": "Operations Manager", "career_level": "mid",
+    "values_lifestyle": {"tags": ["fitness", "food"], "family_setup": "lives_with_parents", "social_style": "social"},
+    "bio": "Operations manager, close to family, enjoys cooking."
+  },
+  {
+    "slug": "jai-o", "name": "Jai O.", "age": 29, "location": "Mumbai",
+    "smokes": null, "drinks": false, "wants_children": true, "willing_to_relocate": true,
+    "education": "Ashoka University", "education_tier": "prestigious",
+    "career": "Data Scientist", "career_level": "mid",
+    "values_lifestyle": {"tags": ["reading", "fitness"], "family_setup": "independent", "social_style": "quiet"},
+    "bio": "Data scientist. Smoking status not yet collected."
+  }
+]

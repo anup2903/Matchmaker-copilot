@@ -1,0 +1,53 @@
+name: matchmaker-copilot
+
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: matchmaker
+      POSTGRES_PASSWORD: matchmaker
+      POSTGRES_DB: matchmaker
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U matchmaker -d matchmaker"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+
+  backend:
+    build: ./backend
+    environment:
+      DATABASE_URL: postgresql+psycopg://matchmaker:matchmaker@db:5432/matchmaker
+      # LLM is optional. Leave empty to run in demo (deterministic fallback) mode.
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      LLM_MODEL: ${LLM_MODEL:-}
+      LLM_BASE_URL: ${LLM_BASE_URL:-}
+      CORS_ORIGINS: http://localhost:3000
+    volumes:
+      - ./seed:/seed:ro
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8000:8000"
+    # migrate -> seed (only if empty) -> serve
+    command: >
+      sh -c "alembic upgrade head &&
+             python /seed/seed.py --if-empty &&
+             uvicorn app.main:app --host 0.0.0.0 --port 8000"
+
+  frontend:
+    build: ./frontend
+    environment:
+      # Server-side proxy target for /api/* (the browser never talks to the backend directly).
+      BACKEND_URL: http://backend:8000
+    depends_on:
+      - backend
+    ports:
+      - "3000:3000"
+
+volumes:
+  pgdata:

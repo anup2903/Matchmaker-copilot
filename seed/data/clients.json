@@ -1,0 +1,195 @@
+[
+  {
+    "slug": "ananya",
+    "name": "Ananya",
+    "age": 31,
+    "location": "Mumbai",
+    "profile_summary": "Product leader who values deep conversation, fitness and travel. Hopes to start a family. Open to moving for the right person.",
+    "preferences": [
+      {
+        "attribute": "intellectual_compatibility",
+        "value": {
+          "importance": "high"
+        },
+        "type": "strong"
+      },
+      {
+        "attribute": "children",
+        "value": {
+          "wants_children": true
+        },
+        "type": "strong"
+      },
+      {
+        "attribute": "smoking",
+        "value": {
+          "allowed": false
+        },
+        "type": "dealbreaker"
+      },
+      {
+        "attribute": "open_to_relocation",
+        "value": {
+          "open": true
+        },
+        "type": "soft"
+      },
+      {
+        "attribute": "similar_lifestyle",
+        "value": {
+          "tags": [
+            "fitness",
+            "travel",
+            "reading",
+            "food"
+          ]
+        },
+        "type": "strong"
+      }
+    ]
+  },
+  {
+    "slug": "rohan",
+    "name": "Rohan",
+    "age": 34,
+    "location": "Pune",
+    "profile_summary": "Engineering manager who wants to settle in Pune near family. Clear on non-smoking and wanting children.",
+    "preferences": [
+      {
+        "attribute": "smoking",
+        "value": {
+          "allowed": false
+        },
+        "type": "dealbreaker"
+      },
+      {
+        "attribute": "children",
+        "value": {
+          "wants_children": true
+        },
+        "type": "dealbreaker"
+      },
+      {
+        "attribute": "location",
+        "value": {
+          "mode": "same_city"
+        },
+        "type": "strong"
+      }
+    ]
+  },
+  {
+    "slug": "priya",
+    "name": "Priya",
+    "age": 29,
+    "location": "Bengaluru",
+    "profile_summary": "Doctor who is close with family and wants a partner whose family outlook fits their own.",
+    "preferences": [
+      {
+        "attribute": "family_compatibility",
+        "value": {
+          "importance": "high"
+        },
+        "type": "strong"
+      },
+      {
+        "attribute": "children",
+        "value": {
+          "wants_children": true
+        },
+        "type": "soft"
+      },
+      {
+        "attribute": "drinking",
+        "value": {
+          "allowed": false
+        },
+        "type": "soft"
+      }
+    ],
+    "confirmed_mirror_rules": [
+      "family_expectations"
+    ]
+  },
+  {
+    "slug": "vikram",
+    "name": "Vikram",
+    "age": 36,
+    "location": "Delhi",
+    "profile_summary": "Founder-operator looking for a driven partner. Flexible on most lifestyle details.",
+    "preferences": [
+      {
+        "attribute": "ambition",
+        "value": {
+          "importance": "high"
+        },
+        "type": "strong"
+      },
+      {
+        "attribute": "age",
+        "value": {
+          "min": 27,
+          "max": 35
+        },
+        "type": "strong"
+      }
+    ]
+  },
+  {
+    "slug": "meera",
+    "name": "Meera",
+    "age": 28,
+    "location": "Hyderabad",
+    "profile_summary": "Researcher who enjoys curious, wide-ranging conversation. Non-smoker.",
+    "preferences": [
+      {
+        "attribute": "intellectual_compatibility",
+        "value": {
+          "importance": "high"
+        },
+        "type": "strong"
+      },
+      {
+        "attribute": "smoking",
+        "value": {
+          "allowed": false
+        },
+        "type": "strong"
+      },
+      {
+        "attribute": "children",
+        "value": {
+          "wants_children": true
+        },
+        "type": "soft"
+      }
+    ]
+  },
+  {
+    "slug": "arjun",
+    "name": "Arjun",
+    "age": 33,
+    "location": "Chennai",
+    "profile_summary": "Musician and consultant with a quiet, routine-driven lifestyle. Wants someone with a similar rhythm.",
+    "preferences": [
+      {
+        "attribute": "similar_lifestyle",
+        "value": {
+          "tags": [
+            "fitness",
+            "music",
+            "food"
+          ]
+        },
+        "type": "strong"
+      },
+      {
+        "attribute": "smoking",
+        "value": {
+          "allowed": false
+        },
+        "type": "soft"
+      }
+    ]
+  }
+]
