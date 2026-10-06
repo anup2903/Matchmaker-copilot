@@ -38,4 +38,4 @@ services:
         value: "3000"
       # Baked in at build time (Next rewrites). Must match the backend's public URL.
       - key: BACKEND_URL
-        value: https://matchmaker-backend.onrender.com
+        value: https://matchmaker-backend-i0x2.onrender.com
